@@ -20,4 +20,4 @@ greetingLanguage: French / Spring Config
 ---
 spring: 
 profiles: prod
-greetingLanguage: Spanish / Spring Config
+greetingLanguage: German / Spring Config
