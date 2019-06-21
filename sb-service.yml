@@ -1,0 +1,23 @@
+management:
+endpoints:
+web:
+  exposure:
+    include: "*"
+ 
+spring: 
+jpa: 
+properties: 
+  hibernate: 
+    dialect: org.hibernate.dialect.MySQL5Dialect
+hibernate: 
+  ddl-auto: update
+ 
+greetingLanguage: English / Spring Config
+---
+spring: 
+profiles: dev
+greetingLanguage: French / Spring Config
+---
+spring: 
+profiles: prod
+greetingLanguage: Spanish / Spring Config
